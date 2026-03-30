@@ -4,8 +4,7 @@ class Solution {
         
         String a = "";
         String b = "";
-        
-        
+
         for(int i =0; i<my_string.length() / m; i++){
             a = my_string.substring(i*m, (i+1)*m);
             if(a.length() >= c){
@@ -13,8 +12,6 @@ class Solution {
                 answer += b;
             }
         }
-        System.out.print(answer);
-        
         return answer;
     }
 }
